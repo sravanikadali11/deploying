@@ -26,18 +26,11 @@
         color: aliceblue;
       
     }
-    .cls9{
-        border: 1px solid wheat ;
-        height: 30px;
-        width: 270px;
-        border-radius: 20px;
-        background-color:rgb(67, 65, 65);
-        position: fixed;
-        left: 310px;
-        top: 530px;
-    
+   
 
-    }
+    
+    
+    
     .cls2{
         border: 1px solid;
         height: 500px;
@@ -46,11 +39,18 @@
         top: 70px;
         left: 300px;
         overflow: scroll;
+    
         background-image: url(../assets/whatsapp.jpg);
        
-
     
     }
+    .cls2::-webkit-scrollbar {
+        display: none;}
+    .cl2{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
     img{
         border: 1px solid;
         height: 40px;
@@ -153,35 +153,26 @@
     
     
 }
-       span{
-        font-size: x-large;
-        margin-left: 20px;
-        position: fixed;
+
+input{
     
-        
-       }
-        .s1{
-            font-size: x-large;
-            margin-left: 200px;
-            
-        }
-        .s2{
-            font-size:x-large ;
+    font-size: x-large;
+    background-color: darkgray;
+    border-radius: 20px;
+    position: fixed;
+    left: 320px;
+    margin-top: 15px;
+    width: 250px;
 
+}
 
-        }
-        .s{
-            font-size: x-large;
-            margin-left: 9px;           
-        }
-        .i4{ 
-            margin-top: 10px;
-            position: fixed;
-            left: 590px;
-           
-        }
+.img1{
+position: fixed;
+left: 590px;
+}
+      
 </style>
-<body><div class="cls">
+<body>
     <div class="cls1">
        <ion-icon style="font-size: x-large;" name="arrow-back-outline"></ion-icon>
         <img src="../assets/sai.jpeg">
@@ -284,18 +275,15 @@
         <div class="ms1">what about you?</div>
         <div class="ms">i'm good</div>
         <div class="ms1">had your lunch</div>
-        <div class="ms">yeah</div>
+        <div class="ms">yeah</div><br>
        
-        
-    </div> <div class="cls9">
-        <span>Message....</span>
-        <!-- <ion-icon class="s" name="happy-outline"> -->
-        <ion-icon class="s1" name="attach-outline"></ion-icon>
-        <ion-icon class="s2" name="camera-outline"></ion-icon>
-    </div> <img class="i4" src="../assets/speaker.jpeg">
-        
-        </div>
-    </div>
+       
 </div>
+
+<input type="text" id="text" name="text" placeholder="Message..">
+<img class="img1" src="../assets/speaker.jpeg">
+    
+</div> 
+
 </body>
 </html>
