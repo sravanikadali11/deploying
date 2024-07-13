@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        
+        .start{
+           
+           display:flex;
+           flex-wrap: wrap;
+           justify-content:space-around;
+           font-size:xx-large;
+          position: sticky;
+          top: 20PX;
+          background-color: beige;
+           
+    }
+    .cls{
+        position: sticky;
+    }
+  
+    .container{
+       
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 390px 200px 390px 200px;
+       gap: 20px;
+       justify-content: center;
+       margin-top: 50px;
+      
+    }
+    img{
+        height: 387px;
+        width: 298px;
+    }
+    /* [class^="it"]
+        {
+            border: 1px solid;
+           
+        } */
+        
+     .p1{
+        font-size: 30px;
+        text-align: center;
+       
+     }
+     p{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top:-1px;
+     }
+     .sub1{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        font-size: large;
+        padding-top: 50px;
+       
+     }
+     [class^="no"]{
+        border: 1px solid;
+        width: 25px;
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+     }
+     .sub2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+        
+     }
+     .pic{
+        height: 600px;
+        width: 600px;
+     }
+     .cen5{
+            /* border: 1px solid; */
+            height: 70px;
+            width: 1200px;
+     }
+     .sub3{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        justify-content: space-evenly;
+     }
+     .p2{
+        /* border: 1px solid; */
+        height: 50px;
+        width: 400px;
+     }
+    .ss{
+        display: grid;
+        grid-template-columns: 60px 150px;
+        grid-template-rows: 70px 70px;
+        gap: 20px;
+    }
+    /* [class^="srava"]{
+        border: 1px solid;
+      
+    } */
+    .srava1{
+        background-image: url(../assets/img2.jpg);
+    }
+    .srava3{
+        background-image: url(../assets/img1.jpg);
+    }
+   
+    .l1{
+        background-color: black;
+        color: white;
+        width: 50px;
+    }
+    img:hover{
+        transition: all 2s;
+        height: 410px;
+        width: 310px;
+    }
+    .container>div:hover{
+        background-color: rgb(164, 223, 204);
+    }
+    @media screen and (min-width:320px) and (max-width:725px)
+    {
+        .container{
+       
+       display: grid;
+       grid-template-columns: 300px ;
+       grid-template-rows: 390px;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 50px;
+
+     
+   }
+      .srav2{
+
+      }
+        .ss{
+        display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows: 70px;
+        gap: 20px;
+    }    
+      .sub3{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .sub2{
+        display: flex;
+        flex-direction: column;
+      }
+        }
+    
+    </style>
+
+</head>
+<body>
+    <div class="m1">
+    
+        <div class="start">
+            <div class="cls"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="cls">MY FOOD</div>
+            <div class="cls">MAIL</div>
+        </div>
+        <div class="container">
+            <div class="item1"><img src="../assets/food1.jpg"></div>
+            <div class="item2"><img src="../assets/food2.jpg"></div>
+            <div class="item3"><img src="../assets/food3.jpg"></div>
+            <div class="item4"><img src="../assets/food4.jpg"></div>
+            <div class="item5">
+                <p class="p1">The Perfect Sandwich,A Real NYC Classic</p>
+                <p>Just some randoam text,lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+            <div class="item6">
+                <p class="p1">Let Me Tell You About This Steak</p>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+            <div class="item7">
+                <p class="p1">Cherries, interrupted</p>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                    What else?</p>
+             
+            </div>
+            <div class="item8">
+                <p class="p1">Once Again, Robust Wine and Vegetable Pasta</p>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="item9"><img src="../assets/food5.jpg"></div>
+            
+            <div class="item10"><img src="../assets/food6.jpg"></div>
+            <div class="item11"><img src="../assets/food7.jpg"></div>
+            <div class="item12"><img src="../assets/food8.jpg"></div>
+            <div class="item13">
+                <p class="p1">All I Need Is a Popsicle</p>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="item14">
+                <p class="p1">Salmon For Your Skin</p>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="item15">
+                <p class="p1">The Perfect Sandwich, A Real Classic</p>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+            <div class="item16">
+           <p class="p1">Le French</p>
+           <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+           
+        </div>
+        <div class="sub1">
+            <div class="no1">&lt&lt</div>
+            <div class="no2">1</div>
+            <div class="no3">2</div>
+            <div class="no4">3</div>
+            <div class="no5">4</div>
+            <div class="no6">&gt&gt</div>
+        </div>
+      
+         <div class="sub2">
+                <div class="p1">About Me, The Food Man</div>
+                <div class="cen2"><img class="pic" src="../assets/food9.jpg"></div>
+                <div class="cen3"><h2>I am Who I Am!</h2></div>
+                <div class="cen4"><p style="font-size: x-large;"><i>With Passion For Real, Good Food</i></p></div>
+                <div class="cen5"><p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p></div>
+            </div>
+        <div class="sub3">
+            <div class="srav1">
+                <p class="p1">FOOTER</p>
+                <p class="p2">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+               <a style="color: black;" href="https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm">powered by w3.css</a>
+            </div>
+            <div class="srav2">
+                <p class="p1">BLOG POSTS</p>
+                <div class="ss">
+                <div class="srava1">
+                    
+                </div>
+                <div class="srava2">
+                    <span style="font-size: 20px;">Lorem</span><br><br>
+                    <span>Sed mattis nunc</span>
+                </div>
+                <div class="srava3"></div>
+                <div class="srava4"><span style="font-size: 20px;">Ipsum</span><br><br>
+                    <span>Praes tinci sed</span></div>
+            </div>
+            </div>
+            <div class="srav2">
+                <p class="p1">POPULAR TAGS</p>
+              <div class="last">  
+                <span class="l1">Travel</span>
+                <span class="l1">New York</span>
+                <span class="l1">Dinner</span>
+                <span class="l1">Salmon</span><br>
+                <span class="l1">France</span>
+                <span class="l1">Drinks</span>
+                <span class="l1">France</span>
+                <span class="l1">ideas</span>
+                <span class="l1">Chicken</span>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
