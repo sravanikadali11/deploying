@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .nav{
+            display: flex;
+            margin-top: 3vh;
+           border: 1vw solid;
+            height: 8vh;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: rgb(36, 158, 239);
+            }
+         .n1{
+            
+            height: 3vh;
+            width: 30vw;
+             }
+         .n2{
+           width:50vw ;
+           display: grid;
+           grid-template-columns: auto auto auto auto;
+           
+           gap: 2vw;
+           justify-content: space-around;
+         }
+         [class^="nav"]{
+           
+            text-align: center;
+            border: 1px black;
+            padding-top: 1vh;
+           font-size: x-large;
+           }
+         .nav4{
+          
+            border-radius: 6vw;
+            color: yellow;
+            border: 1px solid;
+            width: 15vw;
+            height: 5vh;
+           
+         } 
+        .i1{
+            padding-top: 5px;
+        }
+        .head{
+            margin-top: 1.5vh;
+             border: 1px solid;
+            height: 80vh;
+            width: 100%; 
+            background-image: url(../assets/pro1.png);
+           background-repeat: no-repeat;
+           background-size: 100% 100% ;
+           display: flex;
+           flex-wrap: wrap;
+           gap: 2vw;
+           justify-content: space-evenly;
+          align-items: center;
+           
+        }
+        .head1{
+         
+          height: 40vh;
+          width: 40vw;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+          row-gap: 3vh;
+          flex-wrap: wrap;
+        }
+        .head2{
+         
+         
+          height: 40vh;
+          width: 30vw;
+          background-image: url(../assets/working-girl.png);
+          background-size: 100% 100%;
+          background-position: center;
+        }
+        .head1a{
+          width: 20vw;
+          height: 6vh;
+          border: 1px solid;
+         
+          border-radius: 9vw;
+          background-color: aliceblue;
+          
+        }
+         .cls{
+          color: aliceblue;
+          font-size:xx-large;
+         }
+         
+        
+        .call{
+          font-size: large;
+          color: aliceblue;
+        }
+
+         
+        @media screen and (min-width:320px) and (max-width:470px)
+         {
+            .n2{
+            display:grid;
+            grid-template-columns: auto;
+            gap:1vh
+
+          }
+          .nav4{
+          
+          border-radius: 6vw;
+          color: yellow;
+          border: 1px solid;
+          width: 30vw;
+          height: 5vh;
+         
+       } 
+        .head1a{
+          height:15vh ;
+        } 
+
+         }
+          
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+           <div class="n1">
+             <span ><ion-icon class="i1" name="analytics-outline"></ion-icon></span>
+             <span>Digital Trend</span>
+           </div>
+           <div class="n2">
+            <div class="nav1">Studio</div>
+            <div class="nav2">Our Works</div>
+            <div class="nav3">Blog</div>
+            <div class="nav4">Content</div>
+           </div>
+           <div class="head">
+           <div class="head1">
+            <div class="cls">We are ready for yoour</div>
+            <div class="cls">digital marketing</div>
+            <div class=" head1a">Let us discuss together</div>
+            
+           <div><span class="call"><ion-icon name="call-outline"></ion-icon>+919492102211
+            </span></div>
+           
+            
+           </div>
+           <div class="head2">
+           
+           </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
