@@ -1,0 +1,407 @@
+.main{
+    width: 100%;
+    
+}
+.nav{
+    display: flex;
+    margin-top: 3vh;
+  
+    height: 8vh;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgba(5, 160, 191, 0.843);
+    }
+ .n1{
+    
+    height: 3vh;
+    width: 30vw;
+     }
+ .n2{
+   width:50vw ;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   
+   gap: 2vw;
+   justify-content: space-around;
+ }
+ [class^="nav"]{
+   
+    text-align: center;
+    border: 1px black;
+    padding-top: 1vh;
+   font-size: x-large;
+   }
+ .nav4{
+  
+    border-radius: 6vw;
+    color: yellow;
+    border: 1px solid;
+    width: 15vw;
+    height: 5vh;
+   
+ } 
+.i1{
+    padding-top: 5px;
+}
+.head{
+   
+    
+    height: 80vh;
+    width: 100%; 
+    background-image: url(../assets/pro1.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100% ;
+   display: flex;
+   
+   flex-wrap: wrap;
+   gap: 2vw;
+   justify-content: space-evenly;
+  align-items: center;
+   
+}
+.head1{
+ 
+  height: 40vh;
+  width: 40vw;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  
+
+  
+}
+
+.head2{
+ 
+ 
+  height: 40vh;
+  width: 30vw;
+  background-image: url(../assets/working-girl.png);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.head1a{
+  width: 20vw;
+  height: 6vh;
+  border: 1px solid;
+  font-size: x-large;
+  border-radius: 9vw;
+  background-color: aliceblue;
+  text-align: center;
+  color: black;
+  text-align: ;
+ 
+  
+}
+.cls{
+  font-size: xx-large;
+  color:white;
+}
+ .cls1{
+  border: 1px solid;
+  background-color: aliceblue;
+  color: blue;
+  font-size: x-large;
+  height: 6vh;
+  width: 18vw;
+  border-radius: 30vw;
+  text-align: center;
+ }
+ 
+
+.call{
+  font-size: large;
+  color: aliceblue;
+}
+.section{
+  
+  height: 50vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 55vh;
+  grid-template-rows: 15vh 10vh 15vh ;
+  justify-content: center;
+  align-content: center;
+  gap: 3vh;
+
+  
+}
+
+.art1{
+  /* width: 55vh; */
+  
+}
+.art3,.art4 {
+    /* width: 65vh; */
+    font-size: 20px;
+}
+.art4{
+    /* width: 85vh; */
+    
+}
+.mark{
+  color: rgb(239, 236, 38);
+}
+.section2{
+  height: 50vh;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.pic1{
+ 
+  height: 50vh;
+  width: 50%;
+ background-image: url(../assets/office.png);
+ background-size: 100% 100%;
+ background-position: center;
+}
+
+ .section3{
+  height: 90vh;
+  width: 100%;
+  background-color:beige;
+  display: grid;
+  grid-template-columns: 33vw;
+  grid-template-rows: 10vh 8vh 40vh 7vh;
+  row-gap: 4px;
+  justify-content: center;
+  
+ }
+ [class^="pr"]{
+   
+    font-size: xx-large;
+    text-align: center;
+
+ }
+
+ /* [class^="img"]{
+    border: 1px solid;
+ } */
+ .section4{
+  height: 70vh;
+  width: 100%;
+ 
+  display: grid;
+  grid-template-columns: 40% 50%;
+  grid-template-rows: 80%;
+  align-content: center;
+  justify-content: center;
+
+
+ }
+ .sec1{
+  display: grid;
+  grid-template-columns: 50vh;
+  grid-template-rows: 8vh 22vh 8vh ;
+    justify-content: center;
+ }
+ .pic2{
+ 
+  background-image: url(../assets/female-avatar.png);
+  background-size: 90% 90%;
+  background-position: center;
+
+ }
+ .sec1a{
+  font-size: larger;
+  color: gray;
+ }
+ 
+ .footer{
+  height: 40vh;
+  width: 100%;
+   background-color: black; 
+  display: grid;
+  grid-template-rows: 40% 20%;
+  gap: 8vh;
+  grid-template-columns: auto;
+  border: 1px solid;
+  align-content: center;
+
+ }
+ .foota{
+  
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 20% 15% 20%;
+  grid-template-rows: auto;
+  column-gap: 5vw
+  ;
+  justify-content: space-evenly;
+  
+ }
+ .footb{
+ 
+  color: aliceblue; 
+  display: grid;
+  grid-template-columns: 15% 15% 20%;
+  grid-template-rows: auto;
+  column-gap: 5vw
+  ;
+  justify-content: space-evenly;
+
+ }
+ .foota1,.foota2,.foota3{
+  
+  text-align: center;
+  
+  
+ }
+ .footb1,.footb2,.footb3{
+ 
+  text-align: center;
+ }
+ .footb2{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+ .footb3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ }
+ 
+
+@media screen and (min-width:320px) and (max-width:750px)
+ {
+    .n2{
+    display:grid;
+    grid-template-columns: auto;
+    gap:1vh;
+    width:50vw ;
+   
+  justify-content: space-around;
+
+  }
+  .nav4{
+  
+  border-radius: 6vw;
+  color: yellow;
+  border: 1px solid;
+  width: 30vw;
+  height: 5vh;
+ 
+} 
+.head{
+height: 150vh;
+width: 100%;
+}
+
+.head1{
+ 
+ height: 40vh;
+ /* width: 40vw; */
+ align-items: center;
+ display: grid;
+ grid-template-columns: auto;
+ 
+ 
+ row-gap: 3vh;
+ 
+}
+
+.cls1{
+/* height: 20vh; */
+/* width: 25vw; */
+}
+  
+
+/* .head1a{
+  height:15vh ;
+}  */
+ .section{
+ 
+   height: 60vh; 
+  width: 100%;
+  display: grid;
+  grid-template-columns: 55vh; 
+   grid-template-rows: 15vh 10vh 15vh ;
+  
+  
+  gap: 5vh;
+  
+}
+
+.section4{
+  height: 150vh;
+  width: 100%;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 40%;
+  grid-template-rows: 40%;
+  
+  
+ }
+ .sec1{
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 50vh;
+  grid-template-rows: 8vh 22vh
+  
+  
+    row-gap: 2vh;
+ }
+ .footer{
+  height: 220vh;
+  width: 100%;
+   background-color: black; 
+  display: grid;
+  grid-template-rows: 40% 20%;
+  gap: 10vh;
+  grid-template-columns: auto;
+  
+  
+  
+
+ }
+ .foota{
+ 
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 20%;
+  grid-template-rows: auto;
+  column-gap: 5vw
+  ;
+  justify-content: space-evenly;
+  
+ }
+ .foota{
+  
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 20%;
+  grid-template-rows: auto;
+  column-gap: 5vw
+  ;
+  justify-content: space-evenly;
+  
+ }
+ .footb{
+ 
+ color: aliceblue; 
+ display: grid;
+ grid-template-columns: 20%;
+ grid-template-rows: auto;
+ column-gap: 5vw
+ ;
+ justify-content: space-evenly;
+}
+.footb2{
+  display: grid;
+  grid-template-columns: auto;
+
+}
+.footb3{
+  display: grid;
+  grid-template-rows: auto;
+}
+.main{
+    width: 100%;
+}
+}
+  
