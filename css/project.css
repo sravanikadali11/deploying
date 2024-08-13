@@ -410,4 +410,16 @@ width: 100%;
     width: 100%;
 }
 }
-  
+  .mam{
+    
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    gap: 2px;
+    justify-content:start;
+    align-items:start;
+  }
+  .mm{
+    height: 40vh;
+    width: 40vw;
+  }

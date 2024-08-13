@@ -1,0 +1,164 @@
+@media screen and (max-width:768px) {
+
+    header{
+     width: 100vh;
+     color: whitesmoke;
+    }
+ 
+     .bnrctn{
+         width: 70vh;
+     }
+ 
+     .banner{
+         width: 102%;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         text-align: center;
+     }
+     
+     .test{
+         text-align: center;
+         width: 102%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .test div{
+         width: 90%;
+         margin: auto 0;
+         text-align: justify;
+     }
+     #carouselExampleDark {
+         margin-top: 20%;
+  }
+  .test div:first-child{
+ 
+     text-align: center;
+ }
+   
+ }
+ 
+ @media screen and (max-width:426px){
+     header{
+         width: 144vw;
+         color: whitesmoke;
+        }
+        .links{
+         visibility:hidden;
+        }
+     
+         .bnrctn{
+             width: 70vh;
+         }
+     
+         .banner{
+             width: 142vw;
+             height: 100vh;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             text-align: center;
+         }
+         .abt{
+             width: 143vw;
+         }
+         .abt img{
+             width: 95vh;
+         }
+         
+         .test{
+             text-align: center;
+             width: 143vw;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+         }
+         .test div{
+             width: 90%;
+             margin: auto 0;
+             text-align: justify;
+         }
+         #carouselExampleDark {
+             margin-top: 21%;
+             width: 143vw;
+      }
+      .test div:first-child{
+     
+         text-align: center;
+     }
+    
+ }
+ 
+ @media screen and (max-width:320px) {
+ 
+      header{
+         width: 177vw;
+         color: whitesmoke;
+        }
+     
+         .bnrctn{
+             width: 70vh;
+         }
+     
+         .banner{
+             width: 177vw;
+             height: 100vh;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             text-align: center;
+         }
+         .abt{
+             width: 177vw;
+         }
+         .abt img{
+             width: 95vh;
+         }
+         
+         .test{
+             text-align: center;
+             width: 177vw;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+         }
+         .test div{
+             width: 90%;
+             margin: auto 0;
+             text-align: justify;
+         }
+         #carouselExampleDark {
+             margin-top: 31%;
+             width: 173vw;
+      }
+      .test div:first-child{
+     
+         text-align: center;
+     }
+     footer{
+         display:flex;
+         flex-direction: column;
+        width:179vw;
+        height:80vh;
+        text-align: center;
+    
+     }
+     .ftr1{
+         display:flex;
+         flex-direction: column; 
+     }
+     .ftr2{
+         display: flex;
+         flex-direction: column;
+     }
+     .ftr3{
+         display:flex;
+         flex-direction: column;
+     }
+     .hm
+ }
