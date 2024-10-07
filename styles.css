@@ -1,0 +1,26 @@
+
+    .cards {
+        
+        width: 150px;
+        height: 150px;
+        margin: 0.5em;
+        background-color: #e79696; 
+        border-radius: 3px solid black;
+        border: 1px solid;
+        
+      }
+      #search{
+       
+        height: 50px;
+        width: 400px;
+        
+        background: #fff;
+        border-radius: 10px;
+        
+      }
+      
+      
+      
+     
+      
+      
