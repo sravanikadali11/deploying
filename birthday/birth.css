@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
 }
 
@@ -14,7 +14,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(43, 116, 158, 0.1);
     max-width: 600px;
     width: 100%;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 /* Title Styling */
 h1 {
     font-size: 2em;
-    color: #160b77;
+    color: #2b1ea5;
     margin-bottom: 20px;
     font-style:italic;
     
@@ -63,5 +63,5 @@ p:last-child {
     background-color: rgba(255, 192, 203, 0.2); /* soft pink highlight */
     border-left: 4px solid #ba4b63;
     border-radius: 8px;
-} */
+*/
 
