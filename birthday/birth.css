@@ -20,11 +20,11 @@ body {
     text-align: center;
     color: #333;
     line-height: 1.6;
-    background-image: url(../assets/back2.jpg);
- background-size: cover; 
-    /* background-position: center center; 
+    background-image: url(../assets/back4.avif);
+ background-size: cover;  */
+     background-position: center center; 
     background-attachment: fixed; 
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 } 
 
 /* Title Styling */
@@ -54,14 +54,16 @@ p:last-child {
     font-style: italic;
     color: #9b9b9b;
 }
-/* .special-line {
+/* /* .special-line {
     font-size: 1.2em;
     font-style: italic;
     color: #282425; /* A romantic rose color */
-    margin: 20px 0;
+    /* margin: 20px 0;
     padding: 10px;
     background-color: rgba(255, 192, 203, 0.2); /* soft pink highlight */
-    border-left: 4px solid #ba4b63;
-    border-radius: 8px;
-*/
+    /* border-left: 4px solid #ba4b63;
+    border-radius: 8px; */ 
+ */
 
+
+   
